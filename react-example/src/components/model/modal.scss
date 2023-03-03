@@ -1,0 +1,28 @@
+.background {
+  position: fixed;
+  background-color: gray;
+  opacity: 50%;
+  inset: 0;
+}
+
+.foreground {
+  display: flex;
+  position: fixed;
+  inset: 12rem;
+  background-color: white;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}

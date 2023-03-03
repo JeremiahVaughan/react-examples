@@ -1,0 +1,52 @@
+.button {
+  background-color: white;
+  color: black;
+  border: .2rem solid grey;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50rem;
+
+  font-weight: bold;
+
+  padding: 1rem;
+  margin: .5rem;
+
+  &.type-primary {
+    background-color: blue;
+    color: white;
+  }
+
+  &.type-secondary {
+    background-color: purple;
+    color: white;
+  }
+
+  &.type-success {
+    background-color: green;
+    color: white;
+  }
+
+  &.type-warning {
+    background-color: yellow;
+    color: black;
+  }
+
+  &.type-danger {
+    background-color: red;
+    color: white;
+  }
+
+  &:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: scale(.98);
+  }
+}
+
+

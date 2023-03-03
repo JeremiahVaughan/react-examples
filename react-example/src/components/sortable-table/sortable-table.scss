@@ -1,0 +1,16 @@
+.sort-arrows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sort-header {
+  min-width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  &:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+}
